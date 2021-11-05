@@ -7,14 +7,26 @@ const routes: Array<RouteRecordRaw> = [
     name: 'Home',
     component: Home
   },
-  {
-    path: '/about',
-    name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-  }
+  { // 场景
+    path: '/scene',
+    name: 'Scene',
+    component: () => import(/* webpackChunkName: "Scene" */ '../views/Scene.vue')
+  },
+  { // 灯光
+    path: '/light',
+    name: 'Light',
+    component: () => import(/* webpackChunkName: "Light" */ '../views/Light.vue')
+  },
+  { // 模型
+    path: '/model',
+    name: 'Model',
+    component: () => import(/* webpackChunkName: "Model" */ '../views/Model.vue')
+  },
+  { // 材质
+    path: '/texture',
+    name: 'Texture',
+    component: () => import(/* webpackChunkName: "Texture" */ '../views/Texture.vue')
+  },
 ]
 
 const router = createRouter({
