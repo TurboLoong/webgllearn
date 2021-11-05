@@ -18,5 +18,9 @@ module.exports = {
     'quotes': 'off',
     'semi': 'off',
     'comma-dangle': 'off',
+    'spaced-comment': 'off',
+    'prefer-const': 'off',
+    '@typescript-eslint/no-empty-interface': 'off',
+    '@typescript-eslint/no-unused-vars': 'off',
   }
 }

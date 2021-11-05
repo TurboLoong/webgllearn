@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "cuid": "^2.1.8",
     "element-resize-event": "^3.0.6",
     "register-service-worker": "^1.7.1",
     "three": "^0.134.0",

@@ -3332,6 +3332,11 @@ csstype@^2.6.8:
   resolved "https://registry.nlark.com/csstype/download/csstype-2.6.18.tgz?cache=0&sync_timestamp=1631540708034&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fcsstype%2Fdownload%2Fcsstype-2.6.18.tgz#980a8b53085f34af313410af064f2bd241784218"
   integrity sha1-mAqLUwhfNK8xNBCvBk8r0kF4Qhg=
 
+cuid@^2.1.8:
+  version "2.1.8"
+  resolved "https://registry.nlark.com/cuid/download/cuid-2.1.8.tgz#cbb88f954171e0d5747606c0139fb65c5101eac0"
+  integrity sha1-y7iPlUFx4NV0dgbAE5+2XFEB6sA=
+
 cyclist@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/cyclist/-/cyclist-1.0.1.tgz#596e9698fd0c80e12038c2b82d6eb1b35b6224d9"
