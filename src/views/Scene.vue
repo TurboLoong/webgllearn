@@ -1,20 +1,24 @@
 <template>
   <div class="scene">
-    <canvas ref="canvas" />
+    <canvas class="canvas" ref="canvas" />
   </div>
 </template>
 
 <script lang="ts">
 import * as THREE from "three";
-
-export default {
-  name: "Scene",
-
-  //渲染器
-  rederer: THREE.WebGLRenderer,
+import { defineComponent } from "vue";
+export default defineComponent({
+  components: {},
+  // props: {
+  //   value: {
+  //     type: Array,
+  //     required: true,
+  //   },
+  // },
+  emits: [],
 
   methods: {
-    init: function () {
+    init() {
       // 获取容器
       let container = document.getElementById("container")!;
 
@@ -57,27 +61,33 @@ export default {
       // 把 模型对象添加到 场景中
       this.scene.add(this.mesh);
     },
-    animate: function () {
+    animate() {
       requestAnimationFrame(this.animate);
       this.mesh.rotation.x += 0.01;
       this.mesh.rotation.y += 0.02;
       this.renderer.render(this.scene, this.camera);
     },
   },
-  mounted() {
+
+  setup(props, contex) {
     this.init();
     this.animate();
+    debugger;
+    console.log(props);
+    console.log(contex);
+    // 安装
   },
   unmounted() {
-    // 组件卸载时清理渲染器占用的内存
+    //     // 组件卸载时清理渲染器占用的内存
     this.renderer.forceContextLoss();
   },
-  props: {},
-
-  components: {},
-};
+});
 </script>
 
-
 <style scoped lang="less">
+.scene {
+  .canvas {
+    border: 1px #ccc solid;
+  }
+}
 </style>
