@@ -1131,6 +1131,11 @@
   resolved "https://registry.yarnpkg.com/@types/tapable/-/tapable-1.0.8.tgz#b94a4391c85666c7b73299fd3ad79d4faa435310"
   integrity sha512-ipixuVrh2OdNmauvtT51o3d8z12p6LtFW9in7U79der/kwejjdNchQC5UMn5u/KxNoM7VHHOs/l8KS8uHxhODQ==
 
+"@types/three@^0.133.1":
+  version "0.133.1"
+  resolved "https://registry.npmmirror.com/@types/three/download/@types/three-0.133.1.tgz?cache=0&sync_timestamp=1634134322893&other_urls=https%3A%2F%2Fregistry.npmmirror.com%2F%40types%2Fthree%2Fdownload%2F%40types%2Fthree-0.133.1.tgz#6007faaf7f6b53339150a2a1fe57121e4c6607c1"
+  integrity sha1-YAf6r39rUzORUKKh/lcSHkxmB8E=
+
 "@types/uglify-js@*":
   version "3.13.1"
   resolved "https://registry.yarnpkg.com/@types/uglify-js/-/uglify-js-3.13.1.tgz#5e889e9e81e94245c75b6450600e1c5ea2878aea"
@@ -3673,6 +3678,11 @@ electron-to-chromium@^1.3.886:
   version "1.3.889"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.889.tgz#0b7c6f7628559592d5406deda281788f37107790"
   integrity sha512-suEUoPTD1mExjL9TdmH7cvEiWJVM2oEiAi+Y1p0QKxI2HcRlT44qDTP2c1aZmVwRemIPYOpxmV7CxQCOWcm4XQ==
+
+element-resize-event@^3.0.6:
+  version "3.0.6"
+  resolved "https://registry.nlark.com/element-resize-event/download/element-resize-event-3.0.6.tgz#3a18efd4879ad615e979fd8bbf173b014987eb9a"
+  integrity sha1-Ohjv1Iea1hXpef2Lvxc7AUmH65o=
 
 elliptic@^6.5.3:
   version "6.5.4"
@@ -8649,6 +8659,11 @@ thread-loader@^2.1.3:
     loader-runner "^2.3.1"
     loader-utils "^1.1.0"
     neo-async "^2.6.0"
+
+three@^0.134.0:
+  version "0.134.0"
+  resolved "https://registry.npmmirror.com/three/download/three-0.134.0.tgz#d7ad4d85d050da0861bf39749b06ddfb5f17157f"
+  integrity sha1-161NhdBQ2ghhvzl0mwbd+18XFX8=
 
 through2@^2.0.0:
   version "2.0.5"

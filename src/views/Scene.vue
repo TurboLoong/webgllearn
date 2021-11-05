@@ -1,16 +1,27 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="scene">
+    <canvas />
   </div>
 </template>
 
-<script lang='ts'>
-import { defineComponent } from "vue";
+<script lang="ts">
+import * as THREE from "three";
 
-export default defineComponent({
+export default {
   name: "Scene",
-  props: {
-    msg: String,
-  },
-});
+  //渲染器
+  rederer: new THREE.WebGLRenderer({
+    canvas: document.createElement("canvas"),
+  }),
+  // 场景
+  scene: new THREE.Scene(),
+
+  props: {},
+
+  components: {},
+};
 </script>
+
+
+<style scoped lang="less">
+</style>
